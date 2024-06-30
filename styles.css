@@ -1,48 +1,54 @@
 body{
-    border:1px solid red;
+ /*    border:1px solid rgb(231, 220, 220); */
     margin: 0%;
     background-image: url("https://img.freepik.com/premium-photo/roasted-coffee-beans-with-green-leaves-dark-background-top-view_795422-5261.jpg");
     color: white;
 }
 footer{
     border:1px purple;
+    margin-top: 50px;
 }
 main{
-    border:3px solid orange;
+    /* border:3px solid rgb(121, 72, 32); */
     width:80%;
     margin:0 auto;
     background:burlywood;
+    border-radius: 200px;
 }
 header{
     text-align: center;
 }
-footer div{
+
+header h1 {
+    font-size: 70px;
+}
+/* footer div{
     /* border:1px solid green;
     background-color:orange; */
-}
+
 #footer-address{
     /* background-color: yellow; */
 }#footer-contact{
-    /* background-color: purple; */
+    b/* ackground-color: purple; */
 }
 section{
     /* border: 1px solid red; */
 }
 .coffee-section{
-    border:2px solid red;
+   /*  border:2px solid red; */
     background-color: antiquewhite;
     background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-coffee-beans-leaves-wood-plank-background-picture-image_2385568.jpg");
     
 }
 
 .dessert-section{
-    border:1px solid green;
+  /*   border:1px solid white; */
     background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-coffee-beans-leaves-wood-plank-background-picture-image_2385568.jpg");
-    
+    border-radius: 20px;
     
 }
 .coffee-heading,.dessert-heading{
-    border: 2px solid peru;
+  /*   border: 2px solid peru; */
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -51,26 +57,29 @@ section{
     
 }
 .coffee-heading h2{
-    border:1px solid brown;
+    /* border:1px solid brown; */
+    font-size: 70px;
 }
 
 .coffee-heading i{
-    border:1px solid green;
-    font-size: 28px;
+   /*  border:1px solid green; */
+    font-size: 70px;
 }
-.coffee-headind i,.dessert-heading i{
+.coffee-heading i,.dessert-heading i{
     font-size: 70px;
 }
 
 article {
-    border: 1px solid red;
+    border: 1px solid rgb(177, 158, 124);
+    border-radius: 10px;
 }
-.coffee-item,.dessert-item{
+.coffee-item, .dessert-item{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px
 }
+
 img{
     width: 300px;
     object-fit: cover;
@@ -82,9 +91,34 @@ img{
 
 }
 .price{
-    color: green;
+    color: red;
+    font-size: 50px;
 }
 .flavor{
     font-size: x-large;
+    color: pink;
+}
+article {
+    width: 300px;
+    font-weight: 200px;
+    font-style: normal;
+}
+.dessert{
+    color: red;
+    font-size:x-large;
 }
 
+.dessert-heading{
+    font-size: 70px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 20px;
+    padding-left: 40px;
+}
+.established{
+    font-size: 40px;
+}
