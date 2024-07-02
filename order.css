@@ -172,6 +172,8 @@ label{
   margin-top: 30px;
  /*  padding-top: 30px; */
   /* border: 5px solid green; */
+  height: 50px;
+  font-size: 1.2rem;
 }
 
 button{
@@ -182,3 +184,13 @@ button{
   gap: 100px;
   padding: 20px;
 }
+.loxman03{
+  /* background-color: green; */
+  border: 5px solid purple;
+}
+/* 
+.terms-and-conditions {
+  border: 1px solid red;
+}
+ */
+
