@@ -174,3 +174,11 @@ label{
   /* border: 5px solid green; */
 }
 
+button{
+  color:pink;
+  background-color: rgb(27, 93, 27);
+  font-size: x-large;
+  width: 27%;
+  gap: 100px;
+  padding: 20px;
+}
