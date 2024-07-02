@@ -2,7 +2,7 @@ body{
  /*    border:1px solid rgb(231, 220, 220); */
     margin: 0%;
     background-image: url("https://img.freepik.com/premium-photo/roasted-coffee-beans-with-green-leaves-dark-background-top-view_795422-5261.jpg");
-    color: white;
+    color: pink;
 }
 footer{
     border:1px purple;
@@ -36,7 +36,7 @@ section{
 }
 .coffee-section{
    /*  border:2px solid red; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     background-image: url("https://png.pngtree.com/background/20230410/original/pngtree-coffee-beans-leaves-wood-plank-background-picture-image_2385568.jpg");
     
 }
@@ -48,7 +48,7 @@ section{
     
 }
 .coffee-heading,.dessert-heading{
-  /*   border: 2px solid peru; */
+    /* border: 2px solid peru; */
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -56,22 +56,25 @@ section{
     gap: 10px;
     
 }
-.coffee-heading h2{
+.coffee-heading ,.dessert-heading,h2{
     /* border:1px solid brown; */
     font-size: 70px;
+    /* background-color: brown; */
+    color: pink;
 }
 
-.coffee-heading i{
-   /*  border:1px solid green; */
-    font-size: 70px;
-}
+
 .coffee-heading i,.dessert-heading i{
     font-size: 70px;
+    /* border: 2px solid green; */
+    color: pink
 }
 
 article {
-    border: 1px solid rgb(177, 158, 124);
-    border-radius: 10px;
+    /* border: 1px solid rgb(177, 158, 124); */
+    /* border-radius: 10px; */
+    color: pink;
+    
 }
 .coffee-item, .dessert-item{
     display:flex;
@@ -91,7 +94,7 @@ img{
 
 }
 .price{
-    color: red;
+    color: green;
     font-size: 50px;
 }
 .flavor{
@@ -102,10 +105,11 @@ article {
     width: 300px;
     font-weight: 200px;
     font-style: normal;
+    font-size: larger;
 }
 .dessert{
-    color: red;
-    font-size:x-large;
+    color:pink;
+    font-size: 40px;
 }
 
 .dessert-heading{
@@ -121,4 +125,20 @@ footer{
 }
 .established{
     font-size: 40px;
+}
+.items{
+/* border: 10px solid gold; */
+}
+h3{
+    font-size: larger;
+    color: pink;
+}
+button{
+    color:pink;
+    background-color: rgb(27, 93, 27);
+    font-size: x-large;
+    width: 27%;
+    gap: 100px;
+    padding: 20px;
+    
 }
